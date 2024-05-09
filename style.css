@@ -119,7 +119,7 @@ color: var(--cinza-secundario);
 
 .secundario__imagem__imagem{
 width: 80%;
-margin: 1em 0 0em 10em;
+margin: 1em 0 0em 6em;
 }
 
 
@@ -182,3 +182,55 @@ color: var(--branco-principal);
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 }
+
+@media screen and (max-width: 768px){
+
+.container{
+    display: block;
+    background-image: none;
+}
+
+.container__img{
+width: 50vw;
+
+}
+
+.container__caixa{
+margin: 2em 2em;
+
+}
+.container {
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.secundario{
+margin: 0;
+text-align: center;
+display: block;
+}
+
+.secundario_imagem{
+width: 50vw;
+
+}
+
+.secundario__imagem__imagem{
+    width: 50vw;
+    display: block;
+    text-align: center;
+   
+    }
+
+.dispositivos__lista{
+    display: block;
+}
+
+.rodape__lista{
+    display:block
+}
+
+
+}
+/* melhorar isso */
